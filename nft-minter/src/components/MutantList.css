@@ -1,0 +1,12 @@
+.mutantList {
+    cursor: pointer;
+    display: flex;
+    overflow: scroll;
+    margin-top: 20px;
+    padding-bottom: 20x;
+    border-bottom: 1px solid white;
+}
+
+.mutantList::-webkit-scrollbar {
+    display: none;
+}
